@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+   position: absolute;   
+}
+
+
+.bg-pattern-top {
+    position: absolute;
+    width: 100%;
+}
+
+
+.container {
+    margin: 5rem 1.5rem;
+}
+
+
+.heading {
+    font-size: 3rem;
+    text-align: center;
+    color: #502050;
+    letter-spacing: -2px;
+    line-height: .8;
+    margin-bottom: 2rem;
+}
+
+
+.heading-paragraph {
+    color: #502050;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+
+.ratings-container {
+    margin-bottom: 3rem;
+}
+
+
+.ratings {
+    background: #f7f2f7;
+    color: #502050;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border-radius: 10px;    
+}
+
+
+.ratings img {
+    margin: 0px 3px 10px;    
+}
+
+
+.testimonials {
+    background-color: #502050;
+    color:  #f7f2f7;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.client-profile {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+
+.client-profile img {
+    border-radius: 50%;
+    width: 3.5rem;
+}
+
+
+.client-name {
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+
+span {
+    color: #ee68a4;
+    font-weight: 100;    
+}
+
+
+.client-testimonial {
+   line-height: 1.5;    
+}
+
+
+.bg-pattern-bottom {
+    width: 100%;
+    position: absolute;
+    top: 68rem;
+}
+
+
+
+@media (width >= 1440px) {
+
+    .main-container {
+        width: 100%;
+    }
+
+
+    .bg-pattern-top, .heading-container {
+        width: 40%;
+    }
+
+
+    .container {
+        margin: 8rem;
+    }
+
+    
+    .upper-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+
+    /* .heading-container {
+        width: 40%;
+    } */
+
+
+    .heading {
+        text-align: start;
+        font-size: 4rem;
+    }
+
+
+    .heading-paragraph {
+        text-align: start;
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+
+    .ratings-container {
+        margin-bottom: 0;
+        position: relative;
+    }
+
+
+    .ratings {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-size: 20px;
+        padding: 1.2rem 2.5rem;    
+    }
+
+
+    .ratings img, .ratings:last-child, .testimonials {
+        margin: 0;
+    }
+
+
+    .ratings:first-child {
+        position: relative;
+        right: 8rem;
+    }
+
+
+    .ratings:nth-child(2) {
+        position: relative;
+        right: 4rem;
+    }
+
+
+    /* .ratings:last-child {
+        margin-bottom: 0;
+    } */
+
+    
+
+    .testimonials-container {
+        display: flex;
+        gap: 2rem;
+        position: relative;
+    }
+
+
+    /* .testimonials {
+        margin: 0;
+    } */
+
+
+    .testimonials p {
+        font-size: 1.15rem;
+    }
+
+
+    .testimonials:nth-child(2) {
+        position: relative;
+        top: 1.5rem;
+    }
+
+
+    .testimonials:nth-child(3) {
+        position: relative;
+        top: 3rem;
+    }
+
+
+    .bg-pattern-bottom {
+        width: 89.95%;
+        top: 153px;
+        left: 145px;    
+    }
+}
+
