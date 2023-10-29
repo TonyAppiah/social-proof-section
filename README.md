@@ -32,7 +32,7 @@ Users should be able to:
 
 I learned a lot on the 'Position' property in CSS while building this project. I also had the opportunity to refactor my CSS code in the media query section of this project as seen by commenting out some of my code.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
